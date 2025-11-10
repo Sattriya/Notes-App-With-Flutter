@@ -1,0 +1,82 @@
+# ======================================
+# 🌟 FLUTTER STANDARD .gitignore
+# ======================================
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ======================================
+# 🧠 IDE / Editor related
+# ======================================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+# Jika kamu ingin share konfigurasi VSCode (launch.json, tasks.json), hapus garis di atas
+
+# ======================================
+# 🐦 Flutter / Dart / Pub related
+# ======================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# ======================================
+# 📱 Android / iOS build artifacts
+# ======================================
+/android/app/debug
+/android/app/profile
+/android/app/release
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Pods/
+Podfile.lock
+
+# ======================================
+# 💾 Symbolication & obfuscation
+# ======================================
+app.*.symbols
+app.*.map.json
+
+# ======================================
+# 🔒 Keystore / keys (jangan pernah commit ke GitHub!)
+# ======================================
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+*.crt
+
+# ======================================
+# 🧩 Other optional ignores
+# ======================================
+# Jika kamu pakai Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Jika kamu pakai Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
